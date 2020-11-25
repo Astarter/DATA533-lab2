@@ -1,4 +1,4 @@
-from livestocks.livestock import Livestock
+from Animals.livestocks.livestock import Livestock
 
 
 class Cow(Livestock):
