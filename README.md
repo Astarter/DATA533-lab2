@@ -2,6 +2,6 @@
 
 # Assignment 2
 
-## Collaborators:
+## Contributors:
 - Vicens Paneque Fernandez, 85493799
 - Bohan Gao, 25611161
