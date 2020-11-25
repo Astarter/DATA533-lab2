@@ -33,10 +33,22 @@ Just some initial ideas:
 ├── package: Animals
 │   ├── sub-package1 : pet_animals
 |       └── module 1 (at least 2 methods) pet
+            └──method __init__: 1 attribute: name(str). 
+            └──method 1: makeSound() (print("Hi, I am your pet"))
+            └──method 2: display() (like what we did in lab1, just print all attributes.)
 |       └── module 2 (at least 2 methods) cat (cat class inherit pet class)
+            └──method __init__: 1 additional attribute: name, color. 
+            └──method 1: makeSound() (like print("Hi, I am your cat"))
+            └──method 2: display()
 │   ├── sub-package2 : livestocks
 │       └── module 1 (at least 2 methods) livestock
+            └──method __init__: 1 attribute: owner(str). (Not all livestock have a name, but they always have an owner) 
+            └──method 1: makeSound() (like print("Hi, I am your livestock"))
+            └──method 2: display()
 |       └── module 2 (at least 2 methods) cow (cow class inherit livestock class)
+            └──method __init__: 1 additional attribute: owner(str), price(float).  
+            └──method 1: makeSound() (print("Hi, I am your cow"))
+            └──method 2: display()
 ```
 
 - Write a .md file explaining the function details and how they work. Create a test Python file demonstrating how to use the package [2 marks].
