@@ -7,3 +7,5 @@
 - Bohan Gao, 25611161
 
 ### Lab instrucions: lab2.md 
+### Test python file: test.py
+### Package structure: package_structure.md
