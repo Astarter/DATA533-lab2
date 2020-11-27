@@ -7,5 +7,6 @@
 - Bohan Gao, 25611161
 
 ### Lab instrucions: lab2.md 
-### Test python file: test.py
+### Package topic selection: package_topic_selection.pdf
 ### Package structure: package_structure.md
+### Test python file: test.py
