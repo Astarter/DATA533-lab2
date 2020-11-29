@@ -1,7 +1,5 @@
 # Documentation
 
-
-
 ## class **pet(name=None)**
 Class for pet animals, which should have the following parameters and methods:
 
@@ -14,8 +12,6 @@ Method | Desription |
 --- | --- |
 **intro()** | Returns pet introduction
 **display()** | Returns pet information
-
-
 
 ## class **cat(name=None)**	
 **cat** class inherits from **pet** class. 
@@ -31,8 +27,6 @@ Method | Desription |
 **sound()**: | Returns cat sound
 **describe(adj)**: | Returns cat’s activity with adjective labels on string adj
 
-
-
 ## class **livestock(owner=None)**	
 Class for livestock animals, which should have the following parameters and methods:
 
@@ -45,8 +39,6 @@ Method | Desription |
 --- | --- |
 **introduce()**: | Returns livestock introduction
 **display()**: | Returns livestock information
-
-
 
 ## class **cow(owner=None, price=None)**	
 **cow** class inherits from **livestock** class. 
