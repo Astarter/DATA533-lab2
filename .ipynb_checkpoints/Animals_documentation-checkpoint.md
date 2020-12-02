@@ -26,10 +26,6 @@ Method | Desription |
 --- | --- |
 **sound()**: | Returns cat sound
 **describe(adj)**: | Returns cat’s activity with adjective labels on string adj
-**feed(cans=1.0)**: | Adds weight to the cat depending on the quantity fed with cans on float cans
-**getWeight()**: | Returns cat’s weight
-**on_a_diet(kg_down)**: | Substracts weight to the cat with kg scale on float kg_down 
-**setWeight(weight)**: | Sets the cat's weight on float weight
 
 ## class **livestock(owner=None)**	
 Class for livestock animals, which should have the following parameters and methods:
@@ -59,6 +55,6 @@ Contains the purchased price of the livestock
 Method | Desription |
 --- | --- |
 **makeSound()**: | Returns cow sound
-**setPrice(price)**: | Sets the cow’s purchased price on float price
-**getPrice()**: | Gets the cow’s purchased price
+**setPrice(price)**: | Sets the cow’s purchased price
+**getPrice(price)**: | Gets the cow’s purchased price
 **display()**: | Returns cow information

@@ -9,10 +9,6 @@ Garfield.sound()
 Garfield.intro()
 Garfield.sound()
 Garfield.describe("lazy")
-Garfield.feed(1)
-Garfield.getWeight()
-Garfield.on_a_diet(2)
-Garfield.setWeight(5)
 
 print("\n")
 
