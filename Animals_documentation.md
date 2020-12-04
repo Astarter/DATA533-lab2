@@ -50,10 +50,13 @@ Class for cow, which should have the following parameters and methods:
 
 **Parameteres**: 
 **owner**: string value
-Contains the owner of the livestock
+Contains the owner of the cow.
 
 **price**: float value
-Contains the purchased price of the livestock 
+Contains the purchased price(dollars) of the cow. 
+
+**weight**: float value
+Contains the weight(in kg) of the cow.
 
 **Methods**:
 Method | Desription |
@@ -61,4 +64,6 @@ Method | Desription |
 **makeSound()**: | Returns cow sound
 **setPrice(price)**: | Sets the cow’s purchased price on float price
 **getPrice()**: | Gets the cow’s purchased price
+**eat()**: | Give food for the cow to eat, 100units of food = 1 kg in weight. 
+**getWeight()**: | returns the cow’s weight.
 **display()**: | Returns cow information
