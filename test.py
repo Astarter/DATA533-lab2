@@ -19,19 +19,24 @@ print("\n")
 # Test for subpackage 2:
 print("This is a test for subpackage1:")
 c1 = Livestock("ben")
-c2 = Cow("Tim", 200)
+c2 = Cow("Tim", price=200, weight=10)
 
 print("Livestock c1:")
 c1.intoduce()
 c1.display()
+
 
 print("\n")
 
 print("Cow c2:")
 c2.intoduce()
 c2.makeSound()
-print("The price for c2 is %.2f" % c2.getPrice())
-c2.setPrice(1000)
 c2.display()
 
+c2.eat(2000)
+c2.eat(100)
+print("The weight of the cow is %.2f kgs" % c2.getWeight())
+
+c2.setPrice(1000)
+print("The price for c2 is %.2f dollars " % c2.getPrice())
 

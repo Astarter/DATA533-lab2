@@ -3,10 +3,11 @@ class Livestock:
         self.owner = owner
 
     def intoduce(self):
-        print("Hi, I am a livestock")
+        print("Hi, I am %s's livestock" % self.owner)
 
     def display(self):
-        print("I am belong to %s" % self.owner)
+        print("Infor:")
+        print("Owner: %s" % self.owner)
 
 
 
